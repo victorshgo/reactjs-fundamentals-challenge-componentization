@@ -1,12 +1,12 @@
 import { Button } from "./Button";
 
-import { GenreResponseProps } from "../@types/genre.model";
+import { GenreProps } from "../@types/genre.model";
 
 import "../styles/sidebar.scss";
 
 interface SideBarProps {
   id: number;
-  genres: GenreResponseProps[];
+  genres: GenreProps[];
   handleClickButton: Function;
 }
 
